@@ -1,9 +1,8 @@
-# South Pacific ALB CPUE Analysis for the 2024 Assessment
+# South Pacific ALB 2024 CPUE Analysis
 
 ## Two analytical steps
 
 1. Fit model
-
 2. Calculate predictions
 
 The predictions are calculated with the `get_index()` function, weighted by
@@ -35,7 +34,7 @@ scripts involved in the VAST analysis:
 *Note:* there is some data preparation (sub-sampling) that happens in
 `alb_cpue_run.r`
 
-- Get results using get_indices.r
+- Get results using `get_indices.r`
 
 ### sdmTMB analysis
 
